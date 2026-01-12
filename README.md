@@ -1,66 +1,172 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+🌐 Job Finding Website (Recruitment Platform)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Tác giả: A Phiên (Software Engineer)
 
-## About Laravel
+🚀 Tổng quan (Overview)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Job Finding Website là nền tảng tuyển dụng trực tuyến được xây dựng để kết nối Nhà tuyển dụng và Ứng viên trong lĩnh vực CNTT. Hệ thống cung cấp giải pháp toàn diện cho việc đăng tin, quản lý hồ sơ và tìm kiếm việc làm thông qua giao diện web thân thiện và hiệu quả.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Dự án được phát triển dựa trên mô hình MVC (Model-View-Controller) chuẩn mực của Laravel Framework, đảm bảo tính bảo mật và khả năng mở rộng.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+🛠 Tech Stack
 
-## Learning Laravel
+Hệ thống sử dụng các công nghệ Web phổ biến và mạnh mẽ:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Category
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Technology
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Mô tả
 
-## Laravel Sponsors
+Backend Framework
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Laravel (PHP)
 
-### Premium Partners
+Framework PHP mạnh mẽ, xử lý logic, routing và bảo mật (CSRF protection).
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Database
 
-## Contributing
+MySQL
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Hệ quản trị cơ sở dữ liệu quan hệ, lưu trữ thông tin người dùng và bài đăng.
 
-## Code of Conduct
+Frontend
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Blade Template, Bootstrap
 
-## Security Vulnerabilities
+Xây dựng giao diện Responsive, tương thích nhiều thiết bị.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Server Environment
 
-## License
+XAMPP / Docker
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Môi trường chạy Localhost (Apache/Nginx, MySQL).
+
+✨ Tính năng chính (Key Features)
+
+Hệ thống phân quyền chi tiết cho 3 nhóm đối tượng:
+
+🧑‍💻 Dành cho Ứng viên (Candidate/User)
+
+Advanced Search: Tìm kiếm việc làm theo từ khóa, ngôn ngữ (PHP, Java...), địa điểm (Đà Nẵng, Hà Nội...), và loại hình công việc.
+
+Job Application: Nộp đơn ứng tuyển trực tuyến và quản lý lịch sử ứng tuyển.
+
+Profile Management: Cập nhật thông tin cá nhân, kỹ năng, và tải lên CV.
+
+Bookmark Jobs: Lưu lại các công việc yêu thích ("Save Job").
+
+🏢 Dành cho Nhà tuyển dụng (Company)
+
+Recruitment Management: Đăng tin tuyển dụng mới với đầy đủ thông tin (Mức lương, Yêu cầu, Mô tả).
+
+Candidate Tracking: Xem danh sách ứng viên đã nộp đơn vào bài đăng.
+
+Company Profile: Quản lý thông tin thương hiệu, website và địa chỉ công ty.
+
+🛡️ Dành cho Quản trị viên (Admin)
+
+User Control: Quản lý (Xem/Sửa/Xóa) tài khoản người dùng và công ty.
+
+Job Moderation: Kiểm duyệt bài đăng tuyển dụng, xóa hoặc khóa các bài đăng vi phạm ("Block/Active").
+
+System Management: Quản lý danh mục nghề nghiệp (Category) và cấu hình hệ thống.
+
+📸 Giao diện Website (Screenshots)
+
+Trang chủ
+<img width="565" height="291" alt="image" src="https://github.com/user-attachments/assets/2682b922-45cb-46d6-a738-7eac8ad8eafc" />
+<img width="883" height="595" alt="image" src="https://github.com/user-attachments/assets/aa18df12-326f-4e97-946c-c76a21167786" />
+<img width="883" height="592" alt="image" src="https://github.com/user-attachments/assets/d0a1aeb2-a285-4454-99e3-23c711cdec8b" />
+
+
+Chi tiết công việc
+<img width="744" height="511" alt="image" src="https://github.com/user-attachments/assets/d5b620c0-5f90-45df-9aa0-bdc6897408ea" />
+<img width="744" height="600" alt="image" src="https://github.com/user-attachments/assets/50ca0d26-1c50-46c8-80b0-24feadaffeef" />
+
+
+Giao diện tìm kiếm việc làm
+<img width="855" height="566" alt="image" src="https://github.com/user-attachments/assets/3d1bce9a-c015-4611-b266-9b786510c189" />
+
+Thông tin chi tiết và Ứng tuyển
+<img width="855" height="444" alt="image" src="https://github.com/user-attachments/assets/c834d2b0-1c5e-44ae-b97a-1476786fdf13" />
+<img width="855" height="456" alt="image" src="https://github.com/user-attachments/assets/82e8e54c-3492-4b39-a7db-0febb01975ae" />
+
+Dashboard Công ty
+<img width="855" height="335" alt="image" src="https://github.com/user-attachments/assets/8484c39a-ead7-48dd-8327-42433fa8a789" />
+<img width="858" height="480" alt="image" src="https://github.com/user-attachments/assets/ba2d7f30-1dfa-4345-bffe-3ad523bf4e80" />
+<img width="855" height="763" alt="image" src="https://github.com/user-attachments/assets/0e61c990-c991-4da2-9a4c-790d7e09b3b4" />
+<img width="855" height="522" alt="image" src="https://github.com/user-attachments/assets/a6969ec7-781c-4d45-a442-cfbefa7997ba" />
+
+Quản lý Admin
+
+<img width="855" height="350" alt="image" src="https://github.com/user-attachments/assets/0439bb49-d051-4551-b7b6-06f75b065a9a" />
+
+<img width="855" height="434" alt="image" src="https://github.com/user-attachments/assets/510c963d-da4d-4fbb-835e-d58bdb9b73af" />
+<img width="855" height="528" alt="image" src="https://github.com/user-attachments/assets/bfba0d20-ae93-41e2-b093-e82856068a91" />
+
+Trang quản trị hệ thống
+
+⚙️ Cài đặt & Chạy dự án (Installation)
+
+Yêu cầu: Đã cài đặt PHP, Composer và MySQL (qua XAMPP hoặc Docker).
+
+Clone Repository:
+
+git clone https://github.com/aphiendaidai/JobQuest.git
+cd job-finding-web
+
+
+Cài đặt Dependencies:
+
+composer install
+npm install && npm run dev
+
+
+Cấu hình môi trường (.env):
+
+Copy file .env.example thành .env:
+
+cp .env.example .env
+
+
+Mở file .env và cấu hình thông tin Database (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
+
+Generate Key & Migrate:
+
+php artisan key:generate
+php artisan migrate --seed
+
+
+(Thêm --seed nếu có dữ liệu mẫu)
+
+Chạy Server:
+
+php artisan serve
+
+
+Truy cập tại: http://localhost:8000
+
+🛣️ Roadmap & Hướng phát triển
+
+Dự án hiện tại đã đáp ứng các chức năng cơ bản. Kế hoạch nâng cấp trong tương lai:
+
+[ ] Đa ngôn ngữ: Bổ sung hỗ trợ tiếng Anh để mở rộng thị trường.
+
+[ ] Advanced Analytics: Thêm biểu đồ thống kê chuyên sâu cho Nhà tuyển dụng và Admin.
+
+[ ] Notification System: Thông báo email tự động khi có ứng viên mới hoặc trạng thái hồ sơ thay đổi.
+
+[ ] Security: Tăng cường bảo mật phân quyền và mã hóa dữ liệu người dùng.
+
+📬 Liên hệ (Contact)
+
+Nếu bạn quan tâm đến dự án, vui lòng liên hệ:
+
+A Phiên - Software Engineer
+
+Email: aphien629@gmail.com
+
+Phone: 0986712687
+
+© 2024 A Phiên. Built with ❤️ and Laravel.
